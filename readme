@@ -1,0 +1,42 @@
+#### Todo list 
+
+Projeto Crud Teste
+
+Create, Read, Update and Delete 
+
+
+CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for database. 
+We've already learned how to perform create (i.e. insert), read (i.e. select), update and delete operations in previous chapters. 
+In this tutorial we'll create a simple PHP application to perform all these operations on a MySQL database table at one place.
+
+Well, let's start by creating the table which we'll use in all of our example.
+
+
+TODO: creating the database table
+    - database name: company
+    - table name: employees (id primary key NOT NULL Auto increment, name VARCHAR(100) NOT NULL, address VARCHAR(255) NOT NULL, salary INT(10) NOT NULL)
+
+TODO: Creating the Landing Page FOR our CRUD
+    - create a index.php and put a template crud or make it by yourself.
+    
+TODO: Creating the Create Page
+    - In this Section we'll build the Create functionality of our CRUD application.
+    - Let's  create a file named "create.php" and put the form generate by bootstrap CRUD templates or make it by yourself
+    - this page can be used to insert records in the employees table
+    - The same "create.php" file will display the HTML form and process the submitted form data. It will also perfom basic validation on user inputs before saving the data.
+
+TODO: Creating the Read page
+    - Now it's time to build the Read Functionality of our CRUD application
+    - Let's create a file named "read.php" and put the code inside and HTML template
+    - It will simply retrieve the reocrds from the employees table based the id attribute of the employee.
+
+TODO: Creating the update page
+    - Similary, we can build the Update functionality of our CRUD application. 
+    - Let's create a file named "update.php" and put the code inside and HTML template'
+    - It will update the existing records in the employees table based the id attribute of employee.
+
+TODO: Finally, we will build the delete functionality of our CRUD application.
+    - Let's create a file named "delete.php" and put the code inside
+    - I will delete the existing records in the employees table based the id attribute of the employee
+
+TODO: At the end, let's create one more file "error.php". This page will be displayed if request is invalid ex: if id parameter is missing from URL query or it is not valid
